@@ -14,7 +14,6 @@ export const Bio = {
   linkedin: "https://www.linkedin.com/in/rohit-gautam-3a6aa3369/",
   resume:
     "https://drive.google.com/file/d/1OmPRheE39O5QBUUEdbKypblIFHqyzMoJ/view?usp=drive_link",
-  linkedin: "https://www.linkedin.com/in/rohit-gautam-3a6aa3369/",
 };
 
 export const skills = [
