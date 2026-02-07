@@ -108,22 +108,23 @@ const Contact = () => {
   const form = useRef();
   const handelSubmit = (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_78u0sqb",
-        "template_typzpa7",
-        form.current,
-        "3IAFYGlJGmXcVMef8"
-      )
-      .then(
-        (result) => {
-          alert("Message Sent");
-          form.current.reset();
-        },
-        (error) => {
-          alert(error);
-        }
-      );
+    emailjs.sendForm(
+  process.env.REACT_APP_EMAILJS_SERVICE_ID,
+  process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+  form.current,
+  process.env.REACT_APP_EMAILJS_PUBLIC_KEY
+)
+.then(
+  () => {
+    alert("Message Sent");
+    form.current.reset();
+  },
+  (error) => {
+    console.error(error);
+    alert("Failed to send message");
+  }
+);
+
   };
   return (
     <Container id="Education">
