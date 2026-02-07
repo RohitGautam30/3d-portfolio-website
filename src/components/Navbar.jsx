@@ -66,6 +66,7 @@ const ButtonContainer = styled.div`
   display: flex;
   justify-content: end;
   align-items: center;
+  gap: 14px;
   padding: 0 6px;
   @media screen and (max-width: 768px) {
     display: none;
@@ -132,7 +133,7 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/">GeeksForGeeks</NavLogo>
+        
 
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
           <MenuRounded style={{ color: "inherit" }} />
@@ -173,10 +174,24 @@ const Navbar = () => {
             >
               Github Profile
             </GithubButton>
+            <GithubButton
+              href={Bio.linkedin}
+              target="_Blank"
+              style={{
+                background: theme.primary,
+                color: theme.text_primary,
+              }}
+            >
+              LinkedIn
+            </GithubButton>
+
           </MobileMenu>
         )}
 
         <ButtonContainer>
+          <GithubButton href={Bio.linkedin} target="_Blank">
+            Linkedin
+          </GithubButton>
           <GithubButton href={Bio.github} target="_Blank">
             Github Profile
           </GithubButton>
