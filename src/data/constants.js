@@ -382,6 +382,29 @@ export const projects = [
     webapp: "https://geospatial-resources.vercel.app/",
   },
   {
+    id: 2,
+    title: "WebClonePro– AI-Powered Website Layout Replicator",
+    date: "Feb 2026",
+    description:
+      "Developed a full-stack AI-powered web application that extracts HTML structure from live websites and regenerates editable UI templates using Large Language Models.",
+    tags: [
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "Full Stack Development",
+  "RESTful APIs",
+  "Authentication & Authorization",
+  "Database Design",
+  "3D Modeling (Blender)",
+  "Web-Optimized 3D Assets",
+  "Interactive Product Previews",
+]
+,
+    category: "Web application",
+    github: "https://github.com/RohitGautam30/webclonepro",
+    webapp: "https://github.com/RohitGautam30/webclonepro",
+  },
+  {
     id: 1,
     title: "Jarvis A.I.",
     date: "Nov 2025",
@@ -412,18 +435,15 @@ export const projects = [
   "Node.js",
   "Express.js",
   "MongoDB",
-  "Full Stack Development",
-  "RESTful APIs",
-  "Authentication & Authorization",
-  "Database Design",
-  "3D Modeling (Blender)",
-  "Web-Optimized 3D Assets",
-  "Interactive Product Previews",
+  "LLM",
+  "React.js",
+  "Rest Apis"
 ]
 ,
     category: "Web application",
     github: "https://github.com/RohitGautam30/Confidential-project",
     webapp: "https://github.com/RohitGautam30/Confidential-project",
-  }
+  },
+  
 ];
 
