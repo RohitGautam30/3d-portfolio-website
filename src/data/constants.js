@@ -382,7 +382,7 @@ export const projects = [
     webapp: "https://geospatial-resources.vercel.app/",
   },
   {
-    id: 2,
+    id: 1,
     title: "WebClonePro– AI-Powered Website Layout Replicator",
     date: "Feb 2026",
     description:
@@ -405,7 +405,7 @@ export const projects = [
     webapp: "https://github.com/RohitGautam30/webclonepro",
   },
   {
-    id: 1,
+    id: 2,
     title: "Jarvis A.I.",
     date: "Nov 2025",
     description:
@@ -426,7 +426,7 @@ export const projects = [
     webapp: "https://github.com/RohitGautam30/Jarvis-A.I.",
   },
   {
-    id: 2,
+    id: 3,
     title: "Confidential Project",
     date: "Jun 2024",
     description:
@@ -444,6 +444,25 @@ export const projects = [
     github: "https://github.com/RohitGautam30/Confidential-project",
     webapp: "https://github.com/RohitGautam30/Confidential-project",
   },
+  {
+    id: 3,
+    title: "Valentine Game",
+    date: "Feb 2026",
+    description:
+      "Designed and developed an interactive Valentine’s gift web experience using TypeScript, JavaScript, and CSS, focused on creating an engaging and emotionally appealing user journey. Built smooth animations, responsive layouts, and dynamic interactions to deliver a personalized gifting experience. Emphasized clean UI design, seamless navigation, and performance optimization to ensure a delightful experience across all devices.",
+    tags: [
+  "TypeScript",
+  "JavaScript",
+  "CSS",
+  "UI/UX",
+  "Animations"
+]
+
+,
+    category: "Web application",
+    github: "https://github.com/RohitGautam30/valentines_gift",
+    webapp: "https://valentines-gift-bay.vercel.app/",
+  }
   
 ];
 
