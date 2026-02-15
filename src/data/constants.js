@@ -1,5 +1,6 @@
 import GeORec from "../images/GeoRec.png";
 import valentine from "../images/valentine.png"
+import jarvis from "../images/JARVIS.png"
 export const Bio = {
   name: "Rohit Gautam",
   roles: [
@@ -407,6 +408,7 @@ export const projects = [
   {
     id: 2,
     title: "Jarvis A.I.",
+    image: jarvis,
     date: "Nov 2025",
     description:
       "Built a voice-controlled AI assistant that processes spoken commands, answers user queries, and automates basic system tasks. It uses speech recognition and text-to-speech for interaction, integrates the OpenAI API for intelligent responses, and supports actions like opening applications and searching files.",
