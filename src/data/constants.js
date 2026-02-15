@@ -1,5 +1,5 @@
 import GeORec from "../images/GeoRec.png";
-
+import valentine from "../images/valentine.png"
 export const Bio = {
   name: "Rohit Gautam",
   roles: [
@@ -446,6 +446,7 @@ export const projects = [
   },
   {
     id: 3,
+    image : valentine,
     title: "Valentine Game",
     date: "Feb 2026",
     description:
